@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{153946B4-9870-4CBB-B882-A2E54EF8E7AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{C04BADAA-C1EE-4207-8BA2-8DB70EBC4906}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{161F01BD-5A67-4689-9A87-2C66DBC6478E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.GoodInvest.API", "Service\Back.GoodInvest.API\Back.GoodInvest.API.csproj", "{93116A2A-F28D-4E8C-9ABE-39A92C61BE27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.GoodInvest.Domain", "Domain\Back.GoodInvest.Domain\Back.GoodInvest.Domain.csproj", "{84C8D3BA-B60F-4335-AF15-5E37100BE126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.GoodInvest.Domain.Core", "Domain\Back.GoodInvest.Domain.Core\Back.GoodInvest.Domain.Core.csproj", "{17820F54-6195-4FA5-BB6F-F3AE4016113F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.GoodInvest.Domain.Service", "Domain\Back.GoodInvest.Domain.Service\Back.GoodInvest.Domain.Service.csproj", "{EF33C119-994B-439F-BC50-CD1E313E15AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.GoodInvest.Infrastructure", "Infrastructure\Back.GoodInvest.Infrastructure\Back.GoodInvest.Infrastructure.csproj", "{9F77F4C5-8ADB-46D6-892E-1C16AF91F9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.GoodInvest.Tests", "Infrastructure\Back.GoodInvest.Tests\Back.GoodInvest.Tests.csproj", "{5F01431A-8B91-40B7-9225-C1201FB5A8C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.GoodInvest.Core", "Infrastructure\Back.GoodInvest.Core\Back.GoodInvest.Core.csproj", "{E3170571-4947-43CF-802A-AB29067180D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{9055A87A-226F-4BAC-949C-35A7395EFC6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.GoodInvest.Application", "Application\Back.GoodInvest.Application\Back.GoodInvest.Application.csproj", "{67992D3D-32ED-4E57-BB5C-61ADA4CBEDE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93116A2A-F28D-4E8C-9ABE-39A92C61BE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93116A2A-F28D-4E8C-9ABE-39A92C61BE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93116A2A-F28D-4E8C-9ABE-39A92C61BE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93116A2A-F28D-4E8C-9ABE-39A92C61BE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C8D3BA-B60F-4335-AF15-5E37100BE126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C8D3BA-B60F-4335-AF15-5E37100BE126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C8D3BA-B60F-4335-AF15-5E37100BE126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C8D3BA-B60F-4335-AF15-5E37100BE126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17820F54-6195-4FA5-BB6F-F3AE4016113F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17820F54-6195-4FA5-BB6F-F3AE4016113F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17820F54-6195-4FA5-BB6F-F3AE4016113F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17820F54-6195-4FA5-BB6F-F3AE4016113F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF33C119-994B-439F-BC50-CD1E313E15AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF33C119-994B-439F-BC50-CD1E313E15AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF33C119-994B-439F-BC50-CD1E313E15AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF33C119-994B-439F-BC50-CD1E313E15AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F77F4C5-8ADB-46D6-892E-1C16AF91F9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F77F4C5-8ADB-46D6-892E-1C16AF91F9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F77F4C5-8ADB-46D6-892E-1C16AF91F9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F77F4C5-8ADB-46D6-892E-1C16AF91F9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F01431A-8B91-40B7-9225-C1201FB5A8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F01431A-8B91-40B7-9225-C1201FB5A8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F01431A-8B91-40B7-9225-C1201FB5A8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F01431A-8B91-40B7-9225-C1201FB5A8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3170571-4947-43CF-802A-AB29067180D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3170571-4947-43CF-802A-AB29067180D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3170571-4947-43CF-802A-AB29067180D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3170571-4947-43CF-802A-AB29067180D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67992D3D-32ED-4E57-BB5C-61ADA4CBEDE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67992D3D-32ED-4E57-BB5C-61ADA4CBEDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67992D3D-32ED-4E57-BB5C-61ADA4CBEDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67992D3D-32ED-4E57-BB5C-61ADA4CBEDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93116A2A-F28D-4E8C-9ABE-39A92C61BE27} = {C04BADAA-C1EE-4207-8BA2-8DB70EBC4906}
+		{84C8D3BA-B60F-4335-AF15-5E37100BE126} = {153946B4-9870-4CBB-B882-A2E54EF8E7AC}
+		{17820F54-6195-4FA5-BB6F-F3AE4016113F} = {153946B4-9870-4CBB-B882-A2E54EF8E7AC}
+		{EF33C119-994B-439F-BC50-CD1E313E15AD} = {153946B4-9870-4CBB-B882-A2E54EF8E7AC}
+		{9F77F4C5-8ADB-46D6-892E-1C16AF91F9FC} = {161F01BD-5A67-4689-9A87-2C66DBC6478E}
+		{5F01431A-8B91-40B7-9225-C1201FB5A8C3} = {161F01BD-5A67-4689-9A87-2C66DBC6478E}
+		{E3170571-4947-43CF-802A-AB29067180D4} = {161F01BD-5A67-4689-9A87-2C66DBC6478E}
+		{67992D3D-32ED-4E57-BB5C-61ADA4CBEDE5} = {9055A87A-226F-4BAC-949C-35A7395EFC6A}
+	EndGlobalSection
+EndGlobal

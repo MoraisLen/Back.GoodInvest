@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Back.GoodInvest.Core\Back.GoodInvest.Core.csproj" />
+    <ProjectReference Include="..\Back.GoodInvest.Domain.Core\Back.GoodInvest.Domain.Core.csproj" />
+    <ProjectReference Include="..\Back.GoodInvest.Domain\Back.GoodInvest.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

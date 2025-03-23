@@ -1,0 +1,6 @@
+@Back.GoodInvest.API_HostAddress = http://localhost:5101
+
+GET {{Back.GoodInvest.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
